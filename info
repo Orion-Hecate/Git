@@ -1,0 +1,127 @@
+Version Control System
+	- It is the management of changes to documents, computer programs, large web sites and other
+	collections of information.
+
+	- These changes are ususally termed as "versions".
+
+
+
+Need for version control system
+	- Need for version control is for collaboration in order to keep the project in check in case
+	of any conflict occur. Also we can keep track of who made what kind of changes to project.
+	
+	- Another need is for storing different versions of the project as it takes snapshots of all
+	versions properly documented and stored. Versions are also named accurately. This can help
+	us if at any point of time we want to restore any of the previous version due to any bug
+	or other issue, we can easily do it. 
+
+	- Another benefit of version control is that it provides the backup. The data of our project
+	is present at a central server In any case if our central server crashes, a backup is always
+	available in our local servers (present on our private machine).
+
+	- With the help of version control, we can analyze our project, as it keeps track of how
+	our project has changed or evolved with the time.
+
+
+
+Version Control System Tools
+	- Git
+	- Apache Subversion (SVN)
+	- CVS
+	- Mercurial, etc.
+
+
+
+Git & GitHub
+	- GitHub is the hosting company that used Git while Git is the version control system.
+
+	- At the top level, there is GitHub server having a central or remote repository.
+
+	- At the next level, there is the local server repository, that is maintained in every user's
+	workstation (or PC). We can perform push and pull operations at this level to communicate
+	between the central repository and the local repository.
+
+	- At the bottom level, there is the working copy of the repository where the temporary
+	changes are made by the user time to time. We can perform commit and update at this level
+	to store the changes done in working copy to the local repository.
+
+
+
+What is Git?
+	- Git is a Distributed Version Control tool that supports distributed non-linear workflows
+	by providing data assurance for developing quality software.
+
+
+
+Features of Git
+	- Distributed
+		- Allows distributed development of code.
+		- Every developer has a local copy of the entire development history and changes are
+		copied from one repository to another.
+	- Compatible
+		- It is compatible with existing systems and protocols.
+		- SVN and SVK repositories can be directly accessed using Git SVN.
+	- Non-linear
+		- It supports non-linear development of software.
+		- It includes varioustechniques to navigate and visualize non-linear development
+		history.
+	- Branching
+		- It takes only a few seconds to create & merge branches.
+		- Master branch always contains production quality code.
+	- Lightweight
+		- Uses lossless compression technique to compress data on the client's side.
+	- Speed
+		- Fetching data from local repository is 100 times faster than remote repository.
+		- GIT is one order of magnitude faster than other VCS tools, as it is written in C.
+	- Open Source
+		- You can modify its source code according to your needs.
+	- Reliable
+		- On events of system crash, the lost of data can be easily recovered from any of the
+		local repositories of the collaborators.
+	- Secure
+		- Uses SHA1 to name and identify objects.
+		- Every file and commit is checksummed and is retrieved by its checksum at time of
+		checkout.
+	- Economical
+		- Released under GPL's license. It is for free.
+		- All heavy lifting is done on client-side, hence a lot of money can be saved on
+		costly servers.
+
+
+
+Repository
+	- It is a directory or storage space where your projects can live. It can be local to a
+	folder on your computer, or it can be a storage space on GitHub or another online host.
+	We can keep code files, text files, image files, etc. inside a repository.
+
+	- There are two types of repository:
+		- Centeral repository
+		- Local repository
+
+	- Centeral Repository
+		- Typically located on reomote servers
+		- Exclusively consists of ".git" repository folder.
+		- Meant for team to share and exchange data.
+	
+	- Local Repository
+		- Typically located on local machines.
+		- Resides as a ".git" folder inside your project's root.
+		- Only admin of the machine can work with this repo.
+
+
+
+Git Operations and Commands
+	- Creatig repository
+		- git init
+	- Syncing repository
+		- add origin
+		- push
+		- pull
+	- Making changes
+		- status
+		- add
+		- commit
+	- Parallel Development
+		- branch
+		- merge
+		- rebase
